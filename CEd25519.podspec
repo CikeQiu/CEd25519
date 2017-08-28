@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CEd25519'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CEd25519.'
+  s.summary          = 'An implementation of CEd25519.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a portable implementation of Ed25519 based on the SUPERCOP "ref10" implementation.
                        DESC
 
   s.homepage         = 'https://github.com/work_cocody@hotmail.com/CEd25519'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'CEd25519' => ['CEd25519/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/CEd25519/include/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -7,6 +7,7 @@
 //
 
 #import "ASKViewController.h"
+#import <CEd25519/ed25519.h>
 
 @interface ASKViewController ()
 
