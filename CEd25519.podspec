@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 This is a portable implementation of Ed25519 based on the SUPERCOP "ref10" implementation.
                        DESC
 
-  s.homepage         = 'https://github.com/work_cocody@hotmail.com/CEd25519'
+  s.homepage         = 'https://github.com/CikeQiu/CEd25519'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'work_cocody@hotmail.com' => 'qiuhongyang@askcoin.org' }
-  s.source           = { :git => 'https://github.com/work_cocody@hotmail.com/CEd25519.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CikeQiu/CEd25519.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CEd25519/Classes/**/*'
-  
+  s.source_files = 'CEd25519/Classes/**/*.{c,h}'
+
   # s.resource_bundles = {
   #   'CEd25519' => ['CEd25519/Assets/*.png']
   # }
