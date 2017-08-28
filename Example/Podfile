@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CEd25519_Example' do
+  pod 'CEd25519', :path => '../'
+
+  target 'CEd25519_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
